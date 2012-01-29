@@ -34,3 +34,12 @@ section {
     box-shadow: 1px 1px 6px #555;
     background-color: #555;
 }
+
+.container > footer {
+    text-align: center;
+}
+
+.container > footer p {
+    color: #888;
+    font-size: 12px;
+}
