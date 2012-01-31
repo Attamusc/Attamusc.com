@@ -19,27 +19,28 @@ section {
     display: none;
 }
 
-.pills li a {
-    text-shadow: 1px 1px 2px #888;
-    font-size: 16px;
-    font-weight: bold;
-    color: #555
+.pills {
+    li a {
+        text-shadow: 1px 1px 2px #888;
+        font-size: 16px;
+        font-weight: bold;
+        color: #555;
+        &:hover {
+            background-color: #333;
+        }
+    }
+    li.active a {
+        box-shadow: 1px 1px 6px #555;
+        background-color: #555;
+    }
 }
 
-.pills li a:hover {
-    background-color: #333;
-}
-
-.pills li.active a {
-    box-shadow: 1px 1px 6px #555;
-    background-color: #555;
-}
-
-.container > footer {
-    text-align: center;
-}
-
-.container > footer p {
-    color: #888;
-    font-size: 12px;
+.container {
+    footer {
+        text-align: center;
+        p {
+            color: #888;
+            font-size: 12px;
+        }
+    }
 }
