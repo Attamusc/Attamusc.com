@@ -1,11 +1,92 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>{{ title }}</title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-  </head>
-  <body>
-    <h1>{{ title }}</h1>
-    <p>Welcome to {{ title }}</p>
-  </body>
+<head>
+  <title>All About Attamusc</title>
+  <link rel="stylesheet" href="http://twitter.github.com/bootstrap/1.4.0/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+  <div id="main" class="container">
+      <img alt="Potrait Image" src="/img/me.png"/>
+      <h1>Hello, My name is Sean.</h1>
+      <ul class="pills">
+          <li><a href="#intro">About Me</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#code">Code</a></li>
+      </ul>
+      <section id="intro">
+          <div>
+              <p>I am...</p>
+              <ul>
+                  <li>An IBMer</li>
+                  <li>A Computer Scientist</li>
+                  <li>A Software Developer</li>
+                  <li>A Web Junkie</li>
+              </ul>
+          </div>
+      </section>
+      <section id="blog">
+          <div>
+              <p>Why not read some things I say about stuff <a href="http://attamusc.github.com" title="here">here</a>?</p>
+          </div>
+      </section>
+      <section id="experience">
+          <div>
+              <p>I have experience in...</p>
+              <ul>
+                  <li>Java</li>
+                  <li>Scala</li>
+                  <li>Python</li>
+                  <li>Javascript</li>
+                  <li>HTML5/CSS3</li>
+                  <li>Node.js</li>
+                  <li>Ruby</li>
+              </ul>
+          </div>
+      </section>
+      <section id="contact">
+          <div>
+              <p>Find me at...</p>
+              <ul>
+                  <li><a href="http://twitter.com/#!/attamusc">Twitter</a></li>
+                  <li><a href="https://plus.google.com/106695947849129707571/posts">Google+</a></li>
+                  <li><a href="https://github.com/Attamusc">GitHub</a></li>
+                  <li><a href="http://www.facebook.com/attamusc">Facebook</a></li>
+                  <li><a href="mailto:sean@attamusc.com">Email</a></li>
+              </ul>
+          </div>
+      </section>
+      <section id="code">
+          <div>
+              <p>For Open Source and Personal Projects, check out my GitHub <a href="https://github.com/Attamusc">here</a>.</p>
+          </div>
+      </section>
+      <footer>
+          <p>This page is currently under active development :)</p>
+      </footer>
+  </div>
+
+  <!-- Scripts -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+  <script src="/js/main.js" type="text/javascript" charset="utf-8" async defer></script>
+
+  <script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-25833491-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+  </script>
+
+  <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+</body>
 </html>
