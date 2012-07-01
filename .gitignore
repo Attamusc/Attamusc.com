@@ -1,0 +1,39 @@
+node_modules/
+
+### /Users/Atta/.gitignore-boilerplates/Node.gitignore
+
+lib-cov
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+
+pids
+logs
+results
+
+npm-debug.log
+
+
+### /Users/Atta/.gitignore-boilerplates/Global/SublimeText.gitignore
+
+# SublimeText project files
+/*.sublime-project
+*.sublime-workspace
+
+
+### /Users/Atta/.gitignore-boilerplates/Global/OSX.gitignore
+
+.DS_Store
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+
