@@ -2,70 +2,79 @@
 <html>
 <head>
   <title>All About Attamusc</title>
-  <link rel="stylesheet" href="http://twitter.github.com/bootstrap/1.4.0/bootstrap.min.css">
-  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="//current.bootstrapcdn.com/bootstrap-v204/css/bootstrap-combined.min.css">
+  <link href="css/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
+  <link href="css/print.css" media="print" rel="stylesheet" type="text/css" />
+  <!--[if IE]>
+      <link href="css/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
+  <![endif]-->
 </head>
 <body>
 
   <div id="main" class="container">
       <img alt="Potrait Image" src="/img/me.png"/>
-      <h1>Hello, My name is Sean.</h1>
-      <ul class="pills">
+      <h1 class="page-header">Hello, My name is Sean.</h1>
+      <ul class="nav nav-pills">
           <li><a href="#intro">About Me</a></li>
           <li><a href="#blog">Blog</a></li>
           <li><a href="#experience">Experience</a></li>
           <li><a href="#contact">Contact</a></li>
           <li><a href="#code">Code</a></li>
       </ul>
-      <section id="intro">
-          <div>
-              <p>I am...</p>
-              <ul>
-                  <li>An IBMer</li>
-                  <li>A Computer Scientist</li>
-                  <li>A Software Developer</li>
-                  <li>A Web Junkie</li>
-              </ul>
+      <div class="content-wrapper">
+        <section id="intro">
+                <div>
+                    <h2>I am...</h2>
+                    <ul>
+                        <li>An IBMer</li>
+                        <li>A Computer Scientist</li>
+                        <li>A Software Developer</li>
+                        <li>A Web Junkie</li>
+                    </ul>
+                </div>
+            </section>
+            <section id="blog">
+                <div>
+                    <h2>Why not read some things I say about stuff <a href="http://attamusc.github.com" title="here">here</a>?</h2>
+                </div>
+            </section>
+            <section id="experience">
+                <div>
+                    <h2>Here are some languages I've used and like</h2>
+                    <p class="italics">Hover to see more details</p>
+                    <ul class="experience-list">
+                        <li data-popup="<p>I have used both Java 6 and Java 7, the <a href='http://www.playframework.org/'>Play! Framework</a> (< 2.0), and various popular utility libraries (such as <a href='http://logging.apache.org/log4j/1.2/manual.html'>log4j</a>, <a href='http://code.google.com/p/guava-libraries/'>Guava</a>, and <a href='http://www.springsource.org/'>Spring</a>).</p>">Java</li>
+                        <li data-popup="<p>I must preface this by saying that I LOVE Scala and don't get a chance to use it as much as I'd like.</p><p>I have implemented a few projects in Scala and have experience with the <a href='http://www.playframework.org/'>Play! Framework</a> (>= 2.0), <a href='http://liftweb.net/'>Lift</a>, and <a href='http://twitter.github.com/finagle/'>Finagle</a>.</p>">Scala</li>
+                        <li data-popup="<p>I write a lot of Python.</p><p>My favorite (and most used) libraries are <a href='http://www.tornadoweb.org/'>Tornado</a> and <a href='http://flask.pocoo.org/'>Flask</a>, though I have messed with writing <a href='http://www.sublimetext.com/2'>Sublime Text 2</a> packages and Linux applications with <a href='https://live.gnome.org/PyGObject/'>PyGObject</a>.</p>">Python</li>
+                        <li data-popup="<p>I use Javascript, <a href='http://coffeescript.org/'>Coffeescript</a>, and <a href='http://nodejs.org/'>Node.js</a> all over.</p><p>I make use of <a href='http://jquery.com/'>jQuery</a>, <a href='http://backbonejs.org/'>Backbone.js</a>, <a href='http://spinejs.com/'>Spine.js</a>, <a href='http://emberjs.com/'>Ember.js</a> and lots of other .jses on the client side.</p><p>On the server, I have the most experience with <a href='http://expressjs.com/'>Express</a>, but have experimented with both <a href='http://flatironjs.org/'>Flatiron</a> and <a href='http://geddyjs.org/'>GeddyJS</a></p><p>The functionality of these popups is actually written in Coffeescript; Oh, meta :)</p>">Javascript</li>
+                        <li data-popup="<p>You can't make a website or web app without markup.</p><p>I use a variety of templating engines for the frameworks I work with, including <a href='http://mustache.github.com/'>Mustache</a>, <a href='http://handlebarsjs.com/'>Handlebars.js</a>, <a href='http://twitter.github.com/hogan.js/'>Hogan.js</a>, <a href='http://ruby-doc.org/stdlib-1.9.3/libdoc/erb/rdoc/ERB.html'>ERB</a>, <a href='https://github.com/sstephenson/eco/'>ECO</a>, and others, as well as preprocessors such as <a href='http://daringfireball.net/projects/markdown/'>Markdown</a>.</p>">HTML</li>
+                        <li data-popup="<p>CSS makes everything pretty!</p><p>While I use the <a href='http://sass-lang.com/'>SASS</a> preprocessor the most, I have dabbled in <a href='http://lesscss.org/'>LESS</a> and know vanilla CSS3 fairly well. I also make heavy use of <a href='http://twitter.github.com/bootstrap/'>Bootstrap</a> and <a href='http://compass-style.org/'>Compass</a>.</p>">CSS</li>
+                        <li data-popup="<p>While I don't use Ruby very often, I do like it and it's community quite a bit.</p><p>I have some experience with <a href='http://rubyonrails.org/'>Ruby on Rails</a>, <a href='http://www.sinatrarb.com/'>Sinatra</a>, and <a href='http://www.padrinorb.com/'>Padrino</a>.</p>">Ruby</li>
+                        <li data-popup="<p>I use Objective-C to develop both Mac and iOS apps. Though I have far more experience developing with CocoaTouch for iOS than Cocoa for Mac, I have recently begun experimenting with Mac application development.</p>">Objective-C</li>
+                    </ul>
+                </div>
+            </section>
+            <section id="contact">
+                <div>
+                    <h2>Find me on</h2>
+                    <ul>
+                        <li><a href="http://twitter.com/#!/attamusc">Twitter</a></li>
+                        <li><a href="https://plus.google.com/106695947849129707571/posts">Google+</a></li>
+                        <li><a href="https://github.com/Attamusc">GitHub</a></li>
+                        <li><a href="http://www.facebook.com/attamusc">Facebook</a></li>
+                        <li><a href="mailto:sean@attamusc.com">Email</a></li>
+                    </ul>
+                </div>
+            </section>
+            <section id="code">
+                <div>
+                    <h2>For Open Source and Personal Projects, check out my GitHub <a href="https://github.com/Attamusc">here</a>.</h2>
+                </div>
+            </section>
           </div>
-      </section>
-      <section id="blog">
-          <div>
-              <p>Why not read some things I say about stuff <a href="http://attamusc.github.com" title="here">here</a>?</p>
-          </div>
-      </section>
-      <section id="experience">
-          <div>
-              <p>I have experience in...</p>
-              <ul>
-                  <li>Java</li>
-                  <li>Scala</li>
-                  <li>Python</li>
-                  <li>Javascript</li>
-                  <li>HTML5/CSS3</li>
-                  <li>Node.js</li>
-                  <li>Ruby</li>
-              </ul>
-          </div>
-      </section>
-      <section id="contact">
-          <div>
-              <p>Find me at...</p>
-              <ul>
-                  <li><a href="http://twitter.com/#!/attamusc">Twitter</a></li>
-                  <li><a href="https://plus.google.com/106695947849129707571/posts">Google+</a></li>
-                  <li><a href="https://github.com/Attamusc">GitHub</a></li>
-                  <li><a href="http://www.facebook.com/attamusc">Facebook</a></li>
-                  <li><a href="mailto:sean@attamusc.com">Email</a></li>
-              </ul>
-          </div>
-      </section>
-      <section id="code">
-          <div>
-              <p>For Open Source and Personal Projects, check out my GitHub <a href="https://github.com/Attamusc">here</a>.</p>
-          </div>
-      </section>
       <footer>
-          <p>This page is currently under active development :)</p>
+          <div>Built with love and coffee by <a href="http://twitter.com/attamusc">@attamusc</a> using <a href="http://expressjs.com/">Express</a>, <a href="http://twitter.github.com/bootstrap/">Bootstrap</a>, and <a href="http://compass-style.org/">Compass</a>.</div>
+          <div>Hosted on <a href="http://www.nodejitsu.com/">Nodejitsu</a>.</div>
       </footer>
   </div>
 
@@ -86,7 +95,5 @@
     })();
 
   </script>
-
-  <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 </body>
 </html>

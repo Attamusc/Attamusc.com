@@ -1,0 +1,202 @@
+/* line 9, ../../app/client/styles/screen.scss */
+body {
+  margin-top: 40px;
+  background-color: #EEE;
+}
+
+/* line 14, ../../app/client/styles/screen.scss */
+img {
+  width: 790px;
+  border-radius: 5px;
+  border: 2px solid #333;
+  -webkit-box-shadow: 3px 3px 10px #777777;
+  -moz-box-shadow: 3px 3px 10px #777777;
+  box-shadow: 3px 3px 10px #777777;
+}
+
+/* line 21, ../../app/client/styles/screen.scss */
+h2 {
+  font-size: 16px;
+}
+
+/* line 26, ../../app/client/styles/screen.scss */
+a:hover {
+  text-decoration: none;
+}
+
+/* line 31, ../../app/client/styles/screen.scss */
+section {
+  display: none;
+}
+
+/* line 35, ../../app/client/styles/screen.scss */
+.page-header {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-shadow: 1px 1px 5px #555;
+}
+
+/* line 41, ../../app/client/styles/screen.scss */
+.italics {
+  font-style: italic;
+}
+
+/* line 45, ../../app/client/styles/screen.scss */
+.content-wrapper {
+  background-color: #BBB;
+  padding: 10px 20px;
+  margin-bottom: 0;
+  -webkit-border-radius: 6px 6px;
+  -moz-border-radius: 6px 6px;
+  -ms-border-radius: 6px 6px;
+  -o-border-radius: 6px 6px;
+  border-radius: 6px 6px;
+  -webkit-box-shadow: inset -2px 2px 4px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: inset -2px 2px 4px rgba(0, 0, 0, 0.3);
+  box-shadow: inset -2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* line 54, ../../app/client/styles/screen.scss */
+.nav-pills li a {
+  font-size: 20px;
+  padding: 15px;
+  font-weight: bold;
+  color: #555;
+  -webkit-border-radius: 12px 12px;
+  -moz-border-radius: 12px 12px;
+  -ms-border-radius: 12px 12px;
+  -o-border-radius: 12px 12px;
+  border-radius: 12px 12px;
+  text-shadow: 1px 1px 2px #888888;
+  -webkit-border-radius: 20px 20px;
+  -moz-border-radius: 20px 20px;
+  -ms-border-radius: 20px 20px;
+  -o-border-radius: 20px 20px;
+  border-radius: 20px 20px;
+}
+/* line 62, ../../app/client/styles/screen.scss */
+.nav-pills li a:hover {
+  color: #FFF;
+  background-color: #333;
+}
+/* line 67, ../../app/client/styles/screen.scss */
+.nav-pills li.active a {
+  color: #DDD;
+  background-color: #777;
+  -webkit-box-shadow: 1px 1px 6px #555555;
+  -moz-box-shadow: 1px 1px 6px #555555;
+  box-shadow: 1px 1px 6px #555555;
+}
+/* line 71, ../../app/client/styles/screen.scss */
+.nav-pills li.active a:hover {
+  color: #FFF;
+  background-color: #333;
+}
+
+/* line 78, ../../app/client/styles/screen.scss */
+.experience-list {
+  list-style: none;
+  margin-left: 0;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-box;
+  display: box;
+}
+/* line 82, ../../app/client/styles/screen.scss */
+.experience-list li {
+  position: relative;
+  background-color: #13A0E2;
+  text-align: center;
+  color: #FFF;
+  border: 1px solid #00D;
+  margin: 5px;
+  padding: 5px;
+  -webkit-border-radius: 5px 5px;
+  -moz-border-radius: 5px 5px;
+  -ms-border-radius: 5px 5px;
+  -o-border-radius: 5px 5px;
+  border-radius: 5px 5px;
+}
+/* line 91, ../../app/client/styles/screen.scss */
+.experience-list li:first-child {
+  margin-left: 0;
+  padding-left: 5px;
+}
+/* line 95, ../../app/client/styles/screen.scss */
+.experience-list li:last-child {
+  padding-right: 5px;
+}
+
+/* line 101, ../../app/client/styles/screen.scss */
+.container {
+  width: 800px;
+}
+/* line 103, ../../app/client/styles/screen.scss */
+.container footer {
+  margin-top: 20px;
+  padding-top: 5px;
+  border-top: solid #CCC 1px;
+  text-align: center;
+}
+/* line 108, ../../app/client/styles/screen.scss */
+.container footer div {
+  color: #888;
+  font-size: 13px;
+}
+
+/* line 115, ../../app/client/styles/screen.scss */
+.arrow-border {
+  position: absolute;
+  border-color: transparent transparent #555 transparent;
+  border-style: solid;
+  border-width: 10px;
+  height: 0;
+  width: 0;
+  left: 8px;
+  z-index: 1;
+}
+
+/* line 126, ../../app/client/styles/screen.scss */
+.arrow {
+  position: relative;
+  border-color: transparent transparent #EEE transparent;
+  border-style: solid;
+  border-width: 10px;
+  height: 0;
+  width: 0;
+  left: 8px;
+  top: 3px;
+  z-index: 1;
+}
+
+/* line 138, ../../app/client/styles/screen.scss */
+.popup {
+  z-index: 1;
+  position: absolute;
+  min-width: 300px;
+  max-width: 500px;
+  top: 22px;
+  left: 0;
+}
+/* line 145, ../../app/client/styles/screen.scss */
+.popup .popup-content {
+  position: relative;
+  text-align: left;
+  border: 2px solid #555;
+  color: #333;
+  padding: 15px;
+  background-color: #EEE;
+  left: -8px;
+  -webkit-border-radius: 8px 8px;
+  -moz-border-radius: 8px 8px;
+  -ms-border-radius: 8px 8px;
+  -o-border-radius: 8px 8px;
+  border-radius: 8px 8px;
+  -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+}
+/* line 155, ../../app/client/styles/screen.scss */
+.popup .popup-content p:last-child {
+  margin-bottom: 0;
+}

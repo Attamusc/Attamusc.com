@@ -1,0 +1,159 @@
+@import "compass/css3/transform";
+@import "compass/css3/transition";
+@import "compass/css3/box";
+@import "compass/css3/border-radius";
+@import "compass/css3/text-shadow";
+@import "compass/css3/box-shadow";
+@import "compass/typography/lists/horizontal-list";
+
+body {
+    margin-top: 40px;
+    background-color: #EEE;
+}
+
+img {
+    width: 790px;
+    border-radius: 5px;
+    border: 2px solid #333;
+    @include box-shadow(3px 3px 10px #777);
+}
+
+h2 {
+    font-size: 16px;
+}
+
+a {
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+section {
+    display: none;
+}
+
+.page-header {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 5px #555;
+}
+
+.italics {
+    font-style: italic;
+}
+
+.content-wrapper {
+    background-color: #BBB;
+    padding: 10px 20px;
+    margin-bottom: 0;
+    @include border-radius(6px 6px);
+    @include box-shadow(inset -2px 2px 4px rgba(0, 0, 0, 0.3));
+}
+
+.nav-pills {
+    li a {
+        font-size: 20px;
+        padding: 15px;
+        font-weight: bold;
+        color: #555;
+        @include border-radius(12px 12px);
+        @include text-shadow(1px 1px 2px #888);
+        @include border-radius(20px 20px);
+        &:hover {
+            color: #FFF;
+            background-color: #333;
+        }
+    }
+    li.active a {
+        color: #DDD;
+        background-color: #777;
+        @include box-shadow(1px 1px 6px #555);
+        &:hover {
+            color: #FFF;
+            background-color: #333;
+        }
+    }
+}
+
+.experience-list {
+    list-style: none;
+    margin-left: 0;
+    @include display-box;
+    li {
+        position: relative;
+        background-color: #13A0E2;
+        text-align: center;
+        color: #FFF;
+        border: 1px solid #00D;
+        margin: 5px;
+        padding: 5px;
+        @include border-radius(5px 5px);
+        &:first-child {
+            margin-left: 0;
+            padding-left: 5px;
+        }
+        &:last-child {
+            padding-right: 5px;
+        }
+    }
+}
+
+.container {
+    width: 800px;
+    footer {
+        margin-top: 20px;
+        padding-top: 5px;
+        border-top: solid #CCC 1px;
+        text-align: center;
+        div {
+            color: #888;
+            font-size: 13px;
+        }
+    }
+}
+
+.arrow-border {
+    position: absolute;
+    border-color: transparent transparent #555 transparent;
+    border-style: solid;
+    border-width: 10px;
+    height: 0;
+    width: 0;
+    left: 8px;
+    z-index:1;
+}
+
+.arrow {
+    position: relative;
+    border-color: transparent transparent #EEE transparent;
+    border-style: solid;
+    border-width: 10px;
+    height: 0;
+    width: 0;
+    left: 8px;
+    top: 3px;
+    z-index: 1;
+}
+
+.popup {
+    z-index: 1;
+    position: absolute;
+    min-width: 300px;
+    max-width: 500px;
+    top: 22px;
+    left: 0;
+    .popup-content {
+        position: relative;
+        text-align: left;
+        border: 2px solid #555;
+        color: #333;
+        padding: 15px;
+        background-color: #EEE;
+        left: -8px;
+        @include border-radius(8px 8px);
+        @include box-shadow(2px 2px 5px rgba(0, 0, 0, 0.4));
+        p:last-child {
+            margin-bottom: 0;
+        }
+    }
+}
