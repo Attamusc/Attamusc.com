@@ -2,9 +2,10 @@
 body {
   margin-top: 40px;
   background-color: #EEE;
+  height: 800px;
 }
 
-/* line 14, ../../app/client/styles/screen.scss */
+/* line 15, ../../app/client/styles/screen.scss */
 img {
   width: 790px;
   border-radius: 5px;
@@ -14,34 +15,34 @@ img {
   box-shadow: 3px 3px 10px #777777;
 }
 
-/* line 21, ../../app/client/styles/screen.scss */
+/* line 22, ../../app/client/styles/screen.scss */
 h2 {
   font-size: 16px;
 }
 
-/* line 26, ../../app/client/styles/screen.scss */
+/* line 27, ../../app/client/styles/screen.scss */
 a:hover {
   text-decoration: none;
 }
 
-/* line 31, ../../app/client/styles/screen.scss */
+/* line 32, ../../app/client/styles/screen.scss */
 section {
   display: none;
 }
 
-/* line 35, ../../app/client/styles/screen.scss */
+/* line 36, ../../app/client/styles/screen.scss */
 .page-header {
   margin-top: 20px;
   margin-bottom: 10px;
   text-shadow: 1px 1px 5px #555;
 }
 
-/* line 41, ../../app/client/styles/screen.scss */
+/* line 42, ../../app/client/styles/screen.scss */
 .italics {
   font-style: italic;
 }
 
-/* line 45, ../../app/client/styles/screen.scss */
+/* line 46, ../../app/client/styles/screen.scss */
 .content-wrapper {
   background-color: #BBB;
   padding: 10px 20px;
@@ -56,12 +57,13 @@ section {
   box-shadow: inset -2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
-/* line 54, ../../app/client/styles/screen.scss */
-.nav-pills li a {
+/* line 55, ../../app/client/styles/screen.scss */
+.nav-pills li {
   font-size: 20px;
   padding: 15px;
   font-weight: bold;
   color: #555;
+  cursor: pointer;
   -webkit-border-radius: 12px 12px;
   -moz-border-radius: 12px 12px;
   -ms-border-radius: 12px 12px;
@@ -74,26 +76,26 @@ section {
   -o-border-radius: 20px 20px;
   border-radius: 20px 20px;
 }
-/* line 62, ../../app/client/styles/screen.scss */
-.nav-pills li a:hover {
+/* line 64, ../../app/client/styles/screen.scss */
+.nav-pills li:hover {
   color: #FFF;
   background-color: #333;
 }
-/* line 67, ../../app/client/styles/screen.scss */
-.nav-pills li.active a {
+/* line 69, ../../app/client/styles/screen.scss */
+.nav-pills li.active {
   color: #DDD;
   background-color: #777;
   -webkit-box-shadow: 1px 1px 6px #555555;
   -moz-box-shadow: 1px 1px 6px #555555;
   box-shadow: 1px 1px 6px #555555;
 }
-/* line 71, ../../app/client/styles/screen.scss */
-.nav-pills li.active a:hover {
+/* line 73, ../../app/client/styles/screen.scss */
+.nav-pills li.active:hover {
   color: #FFF;
   background-color: #333;
 }
 
-/* line 78, ../../app/client/styles/screen.scss */
+/* line 80, ../../app/client/styles/screen.scss */
 .experience-list {
   list-style: none;
   margin-left: 0;
@@ -102,7 +104,7 @@ section {
   display: -ms-box;
   display: box;
 }
-/* line 82, ../../app/client/styles/screen.scss */
+/* line 84, ../../app/client/styles/screen.scss */
 .experience-list li {
   position: relative;
   background-color: #13A0E2;
@@ -117,34 +119,35 @@ section {
   -o-border-radius: 5px 5px;
   border-radius: 5px 5px;
 }
-/* line 91, ../../app/client/styles/screen.scss */
+/* line 93, ../../app/client/styles/screen.scss */
 .experience-list li:first-child {
   margin-left: 0;
   padding-left: 5px;
 }
-/* line 95, ../../app/client/styles/screen.scss */
+/* line 97, ../../app/client/styles/screen.scss */
 .experience-list li:last-child {
   padding-right: 5px;
 }
 
-/* line 101, ../../app/client/styles/screen.scss */
+/* line 103, ../../app/client/styles/screen.scss */
 .container {
   width: 800px;
 }
-/* line 103, ../../app/client/styles/screen.scss */
+/* line 105, ../../app/client/styles/screen.scss */
 .container footer {
   margin-top: 20px;
+  margin-bottom: 40px;
   padding-top: 5px;
   border-top: solid #CCC 1px;
   text-align: center;
 }
-/* line 108, ../../app/client/styles/screen.scss */
+/* line 111, ../../app/client/styles/screen.scss */
 .container footer div {
   color: #888;
   font-size: 13px;
 }
 
-/* line 115, ../../app/client/styles/screen.scss */
+/* line 118, ../../app/client/styles/screen.scss */
 .arrow-border {
   position: absolute;
   border-color: transparent transparent #555 transparent;
@@ -156,7 +159,7 @@ section {
   z-index: 1;
 }
 
-/* line 126, ../../app/client/styles/screen.scss */
+/* line 129, ../../app/client/styles/screen.scss */
 .arrow {
   position: relative;
   border-color: transparent transparent #EEE transparent;
@@ -169,7 +172,7 @@ section {
   z-index: 1;
 }
 
-/* line 138, ../../app/client/styles/screen.scss */
+/* line 141, ../../app/client/styles/screen.scss */
 .popup {
   z-index: 1;
   position: absolute;
@@ -178,7 +181,7 @@ section {
   top: 22px;
   left: 0;
 }
-/* line 145, ../../app/client/styles/screen.scss */
+/* line 148, ../../app/client/styles/screen.scss */
 .popup .popup-content {
   position: relative;
   text-align: left;
@@ -196,7 +199,7 @@ section {
   -moz-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
 }
-/* line 155, ../../app/client/styles/screen.scss */
+/* line 158, ../../app/client/styles/screen.scss */
 .popup .popup-content p:last-child {
   margin-bottom: 0;
 }

@@ -15,14 +15,14 @@
       <img alt="Potrait Image" src="/img/me.png"/>
       <h1 class="page-header">Hello, My name is Sean.</h1>
       <ul class="nav nav-pills">
-          <li><a href="#intro">About Me</a></li>
-          <li><a href="#blog">Blog</a></li>
-          <li><a href="#experience">Experience</a></li>
-          <li><a href="#contact">Contact</a></li>
-          <li><a href="#code">Code</a></li>
+          <li data-content="intro">About Me</li>
+          <li data-content="blog">Blog</li>
+          <li data-content="experience">Experience</li>
+          <li data-content="contact">Contact</li>
+          <li data-content="code">Code</li>
       </ul>
       <div class="content-wrapper">
-        <section id="intro">
+        <section class="intro">
                 <div>
                     <h2>I am...</h2>
                     <ul>
@@ -33,14 +33,14 @@
                     </ul>
                 </div>
             </section>
-            <section id="blog">
+            <section class="blog">
                 <div>
                     <h2>Why not read some things I say about stuff <a href="http://attamusc.github.com" title="here">here</a>?</h2>
                 </div>
             </section>
-            <section id="experience">
+            <section class="experience">
                 <div>
-                    <h2>Here are some languages I've used and like</h2>
+                    <h2>Here are some languages I've used</h2>
                     <p class="italics">Hover to see more details</p>
                     <ul class="experience-list">
                         <li data-popup="<p>I have used both Java 6 and Java 7, the <a href='http://www.playframework.org/'>Play! Framework</a> (< 2.0), and various popular utility libraries (such as <a href='http://logging.apache.org/log4j/1.2/manual.html'>log4j</a>, <a href='http://code.google.com/p/guava-libraries/'>Guava</a>, and <a href='http://www.springsource.org/'>Spring</a>).</p>">Java</li>
@@ -54,7 +54,7 @@
                     </ul>
                 </div>
             </section>
-            <section id="contact">
+            <section class="contact">
                 <div>
                     <h2>Find me on</h2>
                     <ul>
@@ -66,7 +66,7 @@
                     </ul>
                 </div>
             </section>
-            <section id="code">
+            <section class="code">
                 <div>
                     <h2>For Open Source and Personal Projects, check out my GitHub <a href="https://github.com/Attamusc">here</a>.</h2>
                 </div>

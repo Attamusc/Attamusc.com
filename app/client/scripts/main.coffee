@@ -1,18 +1,19 @@
 (($) ->
-    $('li > a').on 'click', (e) ->
+    $('.nav li').on 'click', (e) ->
         e.preventDefault()
         
-        fade_in_id = $(@).attr 'href'
-        fade_out_id = $('.active > a').attr 'href'
+        fade_in_el = '.' + $(@).data 'content'
+        fade_out_el = '.' + $('.active').data 'content'
         
         $('.active').removeClass 'active'
-        $(@).parent().addClass 'active'
+        $(@).addClass 'active'
         
-        window.location = fade_in_id
+        window.location.hash = fade_in_el.substring(1)
         
-        $(fade_out_id).fadeOut 'normal', () ->
-            $(fade_in_id).fadeIn 'normal'
-            return 
+        $(fade_out_el).fadeOut 'normal', () ->
+            $(fade_in_el).fadeIn 'normal'
+            return
+        return false 
 
     $('.experience-list > li').on 'mouseenter', (e) ->
         e.preventDefault()
@@ -24,10 +25,11 @@
             e.preventDefault()
             $(popup_window).fadeOut 'fast', () ->
                 $(popup_window).remove()
+        return false
     
     # Fade in the initial section
-    active_section = if window.location.hash is '' then '#intro' else window.location.hash
-    $("[href=#{active_section}]").parent().addClass 'active'
-    $(active_section).fadeIn 'normal'
+    active_section = if window.location.hash is '' then 'intro' else window.location.hash.substring(1)
+    $("[data-content=#{active_section}]").addClass 'active'
+    $('.' + active_section).fadeIn 'normal'
     return
 ) jQuery
