@@ -26,10 +26,10 @@
                 <div>
                     <h2>I am...</h2>
                     <ul>
-                        <li>An IBMer</li>
-                        <li>A Computer Scientist</li>
-                        <li>A Software Developer</li>
-                        <li>A Web Junkie</li>
+                        <li>An <span class="blue">IBMer</span></li>
+                        <li>A <span class="green">Computer Scientist</span></li>
+                        <li>A <span class="purple">Software Developer</span></li>
+                        <li>A <span class="yellow">Web Junkie</span></li>
                     </ul>
                 </div>
             </section>
@@ -49,7 +49,7 @@
                         <li data-popup="<p>I use Javascript, <a href='http://coffeescript.org/'>Coffeescript</a>, and <a href='http://nodejs.org/'>Node.js</a> all over.</p><p>I make use of <a href='http://jquery.com/'>jQuery</a>, <a href='http://backbonejs.org/'>Backbone.js</a>, <a href='http://spinejs.com/'>Spine.js</a>, <a href='http://emberjs.com/'>Ember.js</a> and lots of other .jses on the client side.</p><p>On the server, I have the most experience with <a href='http://expressjs.com/'>Express</a>, but have experimented with both <a href='http://flatironjs.org/'>Flatiron</a> and <a href='http://geddyjs.org/'>GeddyJS</a></p><p>The functionality of these popups is actually written in Coffeescript; Oh, meta :)</p>">Javascript</li>
                         <li data-popup="<p>You can't make a website or web app without markup.</p><p>I use a variety of templating engines for the frameworks I work with, including <a href='http://mustache.github.com/'>Mustache</a>, <a href='http://handlebarsjs.com/'>Handlebars.js</a>, <a href='http://twitter.github.com/hogan.js/'>Hogan.js</a>, <a href='http://ruby-doc.org/stdlib-1.9.3/libdoc/erb/rdoc/ERB.html'>ERB</a>, <a href='https://github.com/sstephenson/eco/'>ECO</a>, and others, as well as preprocessors such as <a href='http://daringfireball.net/projects/markdown/'>Markdown</a>.</p>">HTML</li>
                         <li data-popup="<p>CSS makes everything pretty!</p><p>While I use the <a href='http://sass-lang.com/'>SASS</a> preprocessor the most, I have dabbled in <a href='http://lesscss.org/'>LESS</a> and know vanilla CSS3 fairly well. I also make heavy use of <a href='http://twitter.github.com/bootstrap/'>Bootstrap</a> and <a href='http://compass-style.org/'>Compass</a>.</p>">CSS</li>
-                        <li data-popup="<p>While I don't use Ruby very often, I do like it and it's community quite a bit.</p><p>I have some experience with <a href='http://rubyonrails.org/'>Ruby on Rails</a>, <a href='http://www.sinatrarb.com/'>Sinatra</a>, and <a href='http://www.padrinorb.com/'>Padrino</a>.</p>">Ruby</li>
+                        <li data-popup="<p>While I don't get to use Ruby very often, I do like it and it's community quite a bit.</p><p>I have some experience with <a href='http://rubyonrails.org/'>Ruby on Rails</a>, <a href='http://www.sinatrarb.com/'>Sinatra</a>, and <a href='http://www.padrinorb.com/'>Padrino</a>.</p>">Ruby</li>
                         <li data-popup="<p>I use Objective-C to develop both Mac and iOS apps. Though I have far more experience developing with CocoaTouch for iOS than Cocoa for Mac, I have recently begun experimenting with Mac application development.</p>">Objective-C</li>
                     </ul>
                 </div>
@@ -57,12 +57,12 @@
             <section class="contact">
                 <div>
                     <h2>Find me on</h2>
-                    <ul>
-                        <li><a href="http://twitter.com/#!/attamusc">Twitter</a></li>
-                        <li><a href="https://plus.google.com/106695947849129707571/posts">Google+</a></li>
-                        <li><a href="https://github.com/Attamusc">GitHub</a></li>
-                        <li><a href="http://www.facebook.com/attamusc">Facebook</a></li>
-                        <li><a href="mailto:sean@attamusc.com">Email</a></li>
+                    <ul class="social-links">
+                        <li><a href="http://twitter.com/#!/attamusc"><i class="icon-twitter"></i></a></li>
+                        <li><a href="https://plus.google.com/106695947849129707571/posts"><i class="icon-google-plus"></i></a></li>
+                        <li><a href="https://github.com/Attamusc"><i class="icon-github"></i></a></li>
+                        <li><a href="http://www.facebook.com/attamusc"><i class="icon-facebook"></i></a></li>
+                        <li><a href="mailto:sean@attamusc.com"><i class="icon-envelope-alt"></i></a></li>
                     </ul>
                 </div>
             </section>
@@ -73,7 +73,7 @@
             </section>
           </div>
       <footer>
-          <div>Built with love and coffee by <a href="http://twitter.com/attamusc">@attamusc</a> using <a href="http://expressjs.com/">Express</a>, <a href="http://twitter.github.com/bootstrap/">Bootstrap</a>, and <a href="http://compass-style.org/">Compass</a>.</div>
+          <div>Built with love and coffee by <a href="http://twitter.com/attamusc">@attamusc</a> using <a href="http://expressjs.com/">Express</a>, <a href="http://twitter.github.com/bootstrap/">Bootstrap</a>, <a href="http://fortawesome.github.com/Font-Awesome/">Font Awesome</a> and <a href="http://compass-style.org/">Compass</a>.</div>
           <div>Hosted on <a href="http://www.nodejitsu.com/">Nodejitsu</a>.</div>
       </footer>
   </div>
