@@ -5,7 +5,7 @@
     "www.attamusc.com",
     "attamusc.com"
   ],
-  "version": "0.1.0-2",
+  "version": "0.1.1",
   "private": true,
   "scripts": {
     "start": "node app"
